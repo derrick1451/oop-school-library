@@ -1,15 +1,14 @@
 <a name="readme-top"></a>
 
-
 <div align="center">
-<h1><b>OOP CONCEPTS</b></h1>
+<h1><b>School Library</b></h1>
 
 </div>
 
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 OOP ](#-oop-)
+- [📖 School Library ](#-school-library-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -20,16 +19,16 @@
     - [Usage](#usage)
     - [Run tests](#run-tests)
   - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 OOP <a name="about-project"></a>
+# 📖 School Library <a name="about-project"></a>
 
 
-**OOP** This Repo explains the concepts of OOP that include Abstraction, Encapsulation, Polymorphism and Inheritance
-
+**School Library** is designed to help you keep track of the books in your school library and manage borrower records efficiently. Whether you're a student, librarian, or educator, this user-friendly Object-Oriented Programming (OOP) application simplifies the process of maintaining a well-organized library collection.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -45,7 +44,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **OOP**
+- **Add new Students or Teachers**
+- **Add new Book**
+- **Borrowing History**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,7 +79,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd my-project
+  cd School-Project
   gem install
 ```
 
@@ -88,7 +89,7 @@ To run the project, execute the following command:
 
 
 ```sh
-  rails server
+  ruby name-of-file.rb
 ```
 
 ### Run tests
@@ -96,7 +97,7 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  bundle exec rspec
 ```
 
 
@@ -106,13 +107,21 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-
 👤 **Okongo Derrick**
 
-- GitHub: [@derrick1451](https://github.com/derrick1451)
-- Twitter: [@derrick](https://twitter.com/derrickhayle)
-- LinkedIn: [okongo-derrick](https://www.linkedin.com/in/okongo-derrick)
+- GitHub: [@derrick](https://github.com/derrick1451)
+- Twitter: [@derrickhayle](https://twitter.com/derrickhayle)
+- LinkedIn: [okongo-derrick](https://linkedin.com/in/okongo-derrick)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Add basic UI**
+- [ ] **Update books**
+- [ ] **Unit tests**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,7 +139,6 @@ Feel free to check the [issues page](https://github.com/derrick1451/oop-school-l
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
 If you like this project please give it a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -139,7 +147,7 @@ If you like this project please give it a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the Microverse Community, and coding partners who we work tirelessly to make it possible.
+I would like to thank the Microverse Community.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,4 +157,4 @@ I would like to thank the Microverse Community, and coding partners who we work 
 
 This project is [MIT](./LICENSE) licensed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</</b></h1>
