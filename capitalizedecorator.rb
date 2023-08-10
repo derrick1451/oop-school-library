@@ -1,6 +1,6 @@
 require 'basedecorator'
 class CapitalizeDecorator < BaseDecorator
   def correct_name
-    @nameable.correct_name.upcase
+    @nameable.correct_name.capitalize
   end
 end
