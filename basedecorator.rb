@@ -1,7 +1,10 @@
 require 'namable'
 class BaseDecorator < Nameable
   attr_accessor :nameable
+
   def initialize(nameable)
+    # Call super to initialize state of the parent class linters requirement
+    super()
     @nameable = nameable
   end
 
