@@ -1,4 +1,5 @@
 require 'namable'
+require 'rental'
 class Person < Nameable
   def initialize(age, name = 'unknown', parent_permission: true)
     super()
@@ -22,7 +23,7 @@ class Person < Nameable
   end
 
   def add_rental(person, date)
-    Rental.new(person, date, self)
+    Rental.new(date, self, person)
   end
 
   private
