@@ -48,7 +48,7 @@ class App
       student = Student.new(age, 'classroom', name: name, parent_permission: false)
       @people << student
     when 'Y'
-      student = Student.new(age, 'classroom', name: name, parent_permission: true)
+      student = Student.new(age, name: name, parent_permission: true)
       @people << student
     end
     puts 'Student created successfully'
@@ -61,7 +61,7 @@ class App
     age = gets.chomp.to_i
     print 'Enter Specialization: '
     specialization = gets.chomp
-    teacher = Teacher.new(specialization, age, name: name)
+    teacher = Teacher.new(age, specialization, name: name)
     @people << teacher
     puts 'Teacher created successfully'
   end
@@ -90,7 +90,7 @@ class App
     print 'Date: '
     date = gets.chomp
 
-    rental = Rental.new(date, books[book_id], people[person_id])
+    rental = Rental.new(people[person_id], books[book_id], date)
     @rentals << rental
     puts 'created a rental.'
   end
