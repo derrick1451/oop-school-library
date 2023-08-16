@@ -1,4 +1,4 @@
-require_relative './app'
+require_relative 'app'
 class AppInit
   def initialize
     @app = App.new
